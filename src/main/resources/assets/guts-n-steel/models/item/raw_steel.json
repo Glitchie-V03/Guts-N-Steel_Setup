@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "guts-n-steel:item/raw_steel"
+    "layer0": "guts-n-steel:item/raw_steel_v2"
   }
 }
