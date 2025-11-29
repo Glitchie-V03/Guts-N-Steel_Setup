@@ -21,6 +21,9 @@ public class ModItemGroups {
                         entries.add(ModItems.PURE_STEEL_INGOT);
                         entries.add(ModBlocks.STEEL_BLOCK);
                         entries.add(ModBlocks.RAW_STEEL_BLOCK);
+                        entries.add(ModBlocks.ANTH_COAL_DEEPSLATE_ORE);
+                        entries.add(ModItems.ANTH_COAL);
+                        entries.add(ModBlocks.ANTH_COAL_BLOCK);
 
                     }).build());
 

@@ -2,9 +2,12 @@
   "item.guts-n-steel.steel_ingot": "Steel Ingot",
   "item.guts-n-steel.raw_steel": "Raw Steel",
   "item.guts-n-steel.pure_steel_ingot": "Polished Steel Ingot",
+  "item.guts-n-steel.anth_coal": "Anthracite Coal",
 
   "block.guts-n-steel.steel_block": "Block Of Steel",
   "block.guts-n-steel.raw_steel_block": "Block Of Raw Steel",
+  "block.guts-n-steel.anth_coal_deepslate_ore": "Deepslate Anthracite Coal Ore",
+  "block.guts-n-steel.anth_coal_block": "Block Of Anthracite Coal",
 
   "itemgroup.guts-n-steel.guts-n-steel_items": "Guts N' Steel"
 }

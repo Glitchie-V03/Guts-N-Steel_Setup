@@ -12,6 +12,7 @@ public class ModItems {
     public static final Item STEEL_INGOT = registerItem("steel_ingot", new Item(new Item.Settings()));
     public static final Item RAW_STEEL = registerItem("raw_steel", new Item(new Item.Settings()));
     public static final Item PURE_STEEL_INGOT = registerItem("pure_steel_ingot", new Item(new Item.Settings()));
+    public static final Item ANTH_COAL = registerItem("anth_coal", new Item(new Item.Settings()));
 
 private static Item registerItem(String name, Item item) {
     return Registry.register(Registries.ITEM, Identifier.of(GutsNSteel.MOD_ID, name), item);
@@ -25,6 +26,7 @@ private static Item registerItem(String name, Item item) {
             fabricItemGroupEntries.add(STEEL_INGOT);
             fabricItemGroupEntries.add(RAW_STEEL);
             fabricItemGroupEntries.add(PURE_STEEL_INGOT);
+            fabricItemGroupEntries.add(ANTH_COAL);
         });
     }
 }
