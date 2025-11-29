@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "guts-n-steel:steel_block",
+    "guts-n-steel:raw_steel_block",
+    "guts-n-steel:anth_coal_block",
+    "guts-n-steel:anth_coal_deepslate_ore"
+  ]
+}
