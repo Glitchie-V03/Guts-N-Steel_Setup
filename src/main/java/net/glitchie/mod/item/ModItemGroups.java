@@ -2,6 +2,7 @@ package net.glitchie.mod.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.glitchie.mod.GutsNSteel;
+import net.glitchie.mod.block.ModBlocks;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
@@ -18,6 +19,8 @@ public class ModItemGroups {
                         entries.add(ModItems.STEEL_INGOT);
                         entries.add(ModItems.RAW_STEEL);
                         entries.add(ModItems.PURE_STEEL_INGOT);
+                        entries.add(ModBlocks.STEEL_BLOCK);
+                        entries.add(ModBlocks.RAW_STEEL_BLOCK);
 
                     }).build());
 
