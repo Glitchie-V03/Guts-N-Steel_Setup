@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "guts-n-steel:raw_steel_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "guts-n-steel:raw_steel"
+  }
+}

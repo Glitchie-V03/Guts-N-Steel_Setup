@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "steel_ingot",
+  "ingredient": {
+    "item": "guts-n-steel:raw_steel"
+  },
+  "result": {
+    "id": "guts-n-steel:steel_ingot"
+  }
+}
