@@ -24,6 +24,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.ANTH_COAL_DEEPSLATE_ORE);
                         entries.add(ModItems.ANTH_COAL);
                         entries.add(ModBlocks.ANTH_COAL_BLOCK);
+                        entries.add(ModItems.CHISEL);
 
                     }).build());
 
