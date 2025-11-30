@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "guts-n-steel:polished_steel_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "guts-n-steel:pure_steel_ingot"
+  }
+}

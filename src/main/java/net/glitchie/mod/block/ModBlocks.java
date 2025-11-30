@@ -33,6 +33,13 @@ public class ModBlocks {
             new ExperienceDroppingBlock(UniformIntProvider.create(3, 6),
                     AbstractBlock.Settings.create().strength(4.0f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
 
+    public static final Block POLISHED_STEEL_BLOCK = registerBlock("polished_steel_block",
+            new Block(AbstractBlock.Settings.create().strength(4.0F)
+                    .requiresTool().sounds(BlockSoundGroup.METAL)));
+
+
+
+
 
 
 

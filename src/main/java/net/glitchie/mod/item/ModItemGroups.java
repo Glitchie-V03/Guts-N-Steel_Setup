@@ -25,6 +25,8 @@ public class ModItemGroups {
                         entries.add(ModItems.ANTH_COAL);
                         entries.add(ModBlocks.ANTH_COAL_BLOCK);
                         entries.add(ModItems.CHISEL);
+                        entries.add(ModBlocks.POLISHED_STEEL_BLOCK);
+                        entries.add(ModItems.SANDPAPER);
 
                     }).build());
 

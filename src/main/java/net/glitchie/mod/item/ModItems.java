@@ -3,6 +3,7 @@ package net.glitchie.mod.item;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.glitchie.mod.GutsNSteel;
 import net.glitchie.mod.item.custom.ChiselItem;
+import net.glitchie.mod.item.custom.SandPaperItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
@@ -16,6 +17,7 @@ public class ModItems {
     public static final Item ANTH_COAL = registerItem("anth_coal", new Item(new Item.Settings()));
 
     public static final Item CHISEL = registerItem("chisel", new ChiselItem(new Item.Settings().maxDamage(32)));
+    public static final Item SANDPAPER = registerItem("sandpaper", new SandPaperItem(new Item.Settings().maxDamage(32)));
 
 
 
