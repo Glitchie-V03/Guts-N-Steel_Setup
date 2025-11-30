@@ -2,6 +2,7 @@ package net.glitchie.mod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.glitchie.mod.block.ModBlocks;
 import net.glitchie.mod.item.ModItemGroups;
 import net.glitchie.mod.item.ModItems;
@@ -18,5 +19,7 @@ public class GutsNSteel implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+
+		FuelRegistry.INSTANCE.add(ModItems.ANTH_COAL, 35000);
 	}
 }
