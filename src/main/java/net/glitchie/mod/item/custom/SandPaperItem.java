@@ -18,7 +18,18 @@ import java.util.Map;
 public class SandPaperItem extends Item {
     private static final Map<Block, Block> SANDPAPER_MAP =
             Map.of(
-                    ModBlocks.STEEL_BLOCK, ModBlocks.POLISHED_STEEL_BLOCK
+                    ModBlocks.STEEL_BLOCK, ModBlocks.POLISHED_STEEL_BLOCK,
+                    Blocks.STONE, Blocks.SMOOTH_STONE,
+                    Blocks.QUARTZ_BLOCK, Blocks.SMOOTH_QUARTZ,
+                    Blocks.BASALT, Blocks.POLISHED_BASALT,
+                    Blocks.RED_SANDSTONE, Blocks.SMOOTH_RED_SANDSTONE,
+                    Blocks.SANDSTONE, Blocks.SMOOTH_SANDSTONE,
+                    Blocks.ANDESITE, Blocks.POLISHED_ANDESITE,
+                    Blocks.BLACKSTONE, Blocks.POLISHED_BLACKSTONE,
+                    Blocks.GRANITE, Blocks.POLISHED_GRANITE,
+                    Blocks.POLISHED_BASALT, Blocks.SMOOTH_BASALT
+
+
 
             );
 
